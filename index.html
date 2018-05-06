@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./lazyload.js"></script>
+    <style>
+        img{
+            width:100%;
+            height:400px;
+            box-sizing: 100% 100%;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <img data-lazy="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=857208617,3319781484&fm=27&gp=0.jpg" alt="">
+    <img data-lazy="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=857208617,3319781484&fm=27&gp=0.jpg" alt="">
+    <img data-lazy="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=783340072,1312243264&fm=27&gp=0.jpg" alt="">
+    <img data-lazy="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1410462070,509649449&fm=27&gp=0.jpg" alt="">
+    <img data-lazy="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1410462070,509649449&fm=27&gp=0.jpg" alt="">
+    <img data-lazy="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1410462070,509649449&fm=27&gp=0.jpg" alt="">
+    <script>
+        lazyLoad.init({
+            offset : 10,
+            delay : 250
+        });
+    </script>
+</body>
+</html>
